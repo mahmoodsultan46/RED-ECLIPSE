@@ -1,0 +1,14 @@
+{
+  "name": "fragrancenet-stock-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check stock-tracker.mjs",
+    "once": "node stock-tracker.mjs config-github.json --once",
+    "self-test": "node stock-tracker.mjs --self-test"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "discordWebhookUrl": "",
+  "discordMention": "",
+  "checkIntervalSeconds": 300,
+  "jitterSeconds": 0,
+  "notificationCooldownSeconds": 86400,
+  "notifyOnStart": false,
+  "onlyNotifyOnChange": true,
+  "statePath": ".stock-tracker-state.json",
+  "fetchMode": "browser",
+  "browserHeadless": true,
+  "browserUserDataDir": ".browser-profile",
+  "browserWaitMs": 5000,
+  "browserChallengeTimeoutSeconds": 0,
+  "chromeExecutablePath": "",
+  "nodeModulesPath": "node_modules",
+  "products": [
+    {
+      "name": "Bujairami Red Eclipse Eau De Parfum Spray 3.4 oz",
+      "url": "https://www.fragrancenet.com/fragrances/bujairami/bujairami-red-eclipse/eau-de-parfum",
+      "requiredKeywords": [
+        "Bujairami Red Eclipse",
+        "Item #532460",
+        "Eau De Parfum Spray 3.4 oz"
+      ],
+      "inStockKeywords": [
+        "add to bag",
+        "add to cart",
+        "price with coupon",
+        "our price"
+      ],
+      "outOfStockKeywords": [
+        "notify me when available",
+        "currently unavailable",
+        "out of stock",
+        "sold out"
+      ],
+      "headers": {},
+      "timeoutSeconds": 60
+    }
+  ]
+}
